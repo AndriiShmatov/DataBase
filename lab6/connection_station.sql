@@ -1,6 +1,6 @@
 create table connection_station
 (
-    id          int null,
+    id          int not null Primary key,
     id_station  int null,
     id_station2 int null
 );
