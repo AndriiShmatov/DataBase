@@ -1,6 +1,6 @@
 create table city_metro
 (
-    id        int  null,
+    id        int  not null Primary key,
     Name_city text null,
     id_city   int  null
 );
