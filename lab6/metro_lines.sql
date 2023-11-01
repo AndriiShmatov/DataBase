@@ -1,6 +1,6 @@
 create table metro_lines
 (
-    id        int  null,
+    id        int  not null Primary key,
     Line_name text null,
     id_city   int  null
 );
