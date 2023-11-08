@@ -5,4 +5,4 @@ create table lines
     id_city   int  null
 );
 
-INSERT INTO labs.metro_lines (id, Line_name, id_city) VALUES (1, 'Saltivska', 1);
+INSERT INTO labs.lines (id, Line_name, id_city) VALUES (1, 'Saltivska', 1);
