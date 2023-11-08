@@ -1,4 +1,4 @@
-create table metro_lines
+create table lines
 (
     id        int  not null Primary key,
     Line_name text null,
