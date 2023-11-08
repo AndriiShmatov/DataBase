@@ -1,21 +1,21 @@
-create table city_metro
+create table city
 (
     id        int  null Primary Key,
     Name_city text null,
     id_city   int  null
 );
 
-INSERT INTO labs.city_metro (id, Name_city, id_city) VALUES (1, 'Kharkiv', 1);
+INSERT INTO labs.city (id, Name_city, id_city) VALUES (1, 'Kharkiv', 1);
 
 
-create table metro_lines
+create table lines
 (
     id        int  null Primary Key,
     Line_name text null,
     id_city   int  null
 );
 
-INSERT INTO labs.metro_lines (id, Line_name, id_city) VALUES (1, 'Saltivska', 1);
+INSERT INTO labs.lines (id, Line_name, id_city) VALUES (1, 'Saltivska', 1);
 
 
 create table country
@@ -38,7 +38,7 @@ create table connection_station
 
 INSERT INTO labs.connection_station (id, id_station, id_station2) VALUES (1, 1, 2);
 
-create table metro_stations
+create table stations
 (
     id            int  null Primary Key,
     Name_station  text null,
