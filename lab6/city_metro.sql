@@ -21,7 +21,9 @@ create table stations
 (
     id            int  not null Primary Key,
     Name_station  text not null,
-    line_id int  not null
+    line_id int  not null,
+    previous_station varchar(255),
+    next_station varchar(255) 
 );
 
 INSERT INTO `stations` (`id`, `Name_station`, `id_metro_line`) VALUES
